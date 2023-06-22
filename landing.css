@@ -1,0 +1,163 @@
+/* styles.css */
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url('bg.webp'); /* Replace with your own image */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #f00;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* About Section */
+#about {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+#about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 16px;
+}
+.gallery{
+  text-decoration: none;
+  display:flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 10px 10px;
+  margin: 0px 10px 30px;
+}
+
+/* Services Section */
+#services {
+  padding: 40px 0;
+}
+
+.service {
+  margin-bottom: 30px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
